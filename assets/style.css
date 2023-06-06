@@ -93,32 +93,35 @@ th {
 
 .table__timetable {
     /* display: flex; */
-    border: 3px solid #012E60;
-}
-
-.table__content {
-    padding-left: 11px;
+    
+    /* box-sizing: content-box; */
 }
 
 .table__time {
     font-weight: 700;
     font-size: 24px;
+    border: 3px solid #012E60;
     /* line-height: 110%; */
     text-transform: uppercase;
     color: #FFFFFF;
 
     background: #012E60;
-    padding: 2px 10px;
+    padding: 0 10px;
 }
 
 .table__date {
     font-weight: 800;
     font-size: 24px;
+    border: 3px solid #012E60;
     /* line-height: calc(29 / 24); */
     text-transform: uppercase;
     color: #012E60;
 
-    padding: 2px 5px;
+    padding: 0 5px;
+}
+
+.table__content {
+    padding-left: 11px;
 }
 
 .table__main {
