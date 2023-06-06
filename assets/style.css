@@ -106,7 +106,7 @@ th {
     color: #FFFFFF;
 
     background: #012E60;
-    padding: 0 10px;
+    padding: 0 8px;
 }
 
 .table__date {
@@ -117,7 +117,7 @@ th {
     text-transform: uppercase;
     color: #012E60;
     margin-left: -5px;
-    padding: 0 5px;
+    padding: 0 8px;
 }
 
 .table__content {
