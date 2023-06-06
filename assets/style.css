@@ -92,7 +92,7 @@ th {
 } */
 
 .table__timetable {
-    display: flex;
+    /* display: flex; */
     border: 3px solid #012E60;
 }
 
@@ -103,7 +103,7 @@ th {
 .table__time {
     font-weight: 700;
     font-size: 24px;
-    line-height: 110%;
+    /* line-height: 110%; */
     text-transform: uppercase;
     color: #FFFFFF;
 
@@ -114,7 +114,7 @@ th {
 .table__date {
     font-weight: 800;
     font-size: 24px;
-    line-height: calc(29 / 24);
+    /* line-height: calc(29 / 24); */
     text-transform: uppercase;
     color: #012E60;
 
