@@ -7,8 +7,8 @@ body {
 }
 
 table {
-    width: 100%;
-    max-width: 1600px;
+    /* width: 100%; */
+    width: 2400px;
     border-collapse: collapse;
     margin: auto;
 }
@@ -27,7 +27,7 @@ th {
 
 .table__head {
     font-weight: 700;
-    font-size: 20px;
+    font-size: 30px;
     line-height: calc(24 / 20);
     text-transform: uppercase;
     color: #000000;
@@ -39,10 +39,10 @@ th {
 }
 
 .table__kind {
-    margin-right: 11px;
+    margin-right: 20px;
 
     font-weight: 700;
-    font-size: 20px;
+    font-size: 30px;
     line-height: calc(24 / 20);
     text-transform: uppercase;
 
@@ -92,6 +92,7 @@ th {
 } */
 
 .table__timetable {
+    margin-left: 20px;
     /* display: flex; */
     
     /* box-sizing: content-box; */
@@ -99,7 +100,7 @@ th {
 
 .table__time {
     font-weight: 700;
-    font-size: 24px;
+    font-size: 36px;
     border: 3px solid #012E60;
     /* line-height: 110%; */
     text-transform: uppercase;
@@ -111,7 +112,7 @@ th {
 
 .table__date {
     font-weight: 700;
-    font-size: 24px;
+    font-size: 36px;
     border: 3px solid #012E60;
     /* line-height: calc(29 / 24); */
     text-transform: uppercase;
@@ -121,14 +122,14 @@ th {
 }
 
 .table__content {
-    padding-left: 11px;
+    padding: 0 15px 15px;
 }
 
 .table__main {
 }
 
 .table__block {
-    max-width: 672px;
+    
 }
 
 .table__block-top {
@@ -149,21 +150,21 @@ th {
 }
 .table__text {
     font-weight: 500;
-    font-size: 20px;
+    font-size: 30px;
     line-height: calc(24 / 20);
     color: #000000;
 }
 
 .table__bold {
     font-weight: 700;
-    font-size: 32px;
+    font-size: 48px;
     line-height: calc(39 / 32);
     color: #FFFFFF;
 }
 
 .table__thin {
     font-weight: 600;
-    font-size: 24px;
+    font-size: 36px;
     line-height: calc(29 / 24);
     color: #FFFFFF;
     
@@ -181,9 +182,10 @@ th {
     background: #61977C;
 }
 
-.table__info {
+.table__info {    
+    padding: 12px;
     font-weight: 700;
-    font-size: 24px;
+    font-size: 36px;
     line-height: calc(29 / 24);
     text-transform: uppercase;
     color: #FFFFFF;
