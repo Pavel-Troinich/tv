@@ -122,6 +122,7 @@ th {
 }
 
 .table__content {
+    min-width: 70vw;
     padding: 0 15px 15px;
 }
 
