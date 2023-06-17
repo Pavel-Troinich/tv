@@ -150,8 +150,9 @@ th {
     margin-top: 8px;
 }
 .table__text {
+    margin-left: 12px;
     font-weight: 600;
-    font-size: 26px;
+    font-size: 28px;
     line-height: calc(24 / 20);
     color: #000000;
 }
@@ -190,4 +191,12 @@ th {
     line-height: calc(29 / 24);
     text-transform: uppercase;
     color: #FFFFFF;
+}
+
+
+
+
+.test-text {
+    margin-left: 20px;
+    margin-bottom: 30px;
 }
