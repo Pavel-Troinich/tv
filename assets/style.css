@@ -100,7 +100,7 @@ th {
 
 .table__time {
     font-weight: 700;
-    font-size: 36px;
+    font-size: 32px;
     border: 3px solid #012E60;
     /* line-height: 110%; */
     text-transform: uppercase;
@@ -112,7 +112,7 @@ th {
 
 .table__date {
     font-weight: 700;
-    font-size: 36px;
+    font-size: 32px;
     border: 3px solid #012E60;
     /* line-height: calc(29 / 24); */
     text-transform: uppercase;
@@ -150,7 +150,6 @@ th {
     margin-top: 8px;
 }
 .table__text {
-    margin-left: 12px;
     font-weight: 600;
     font-size: 28px;
     line-height: calc(24 / 20);
@@ -159,7 +158,7 @@ th {
 
 .table__bold {
     font-weight: 700;
-    font-size: 40px;
+    font-size: 36px;
     line-height: calc(39 / 32);
     color: #FFFFFF;
 }
@@ -191,12 +190,4 @@ th {
     line-height: calc(29 / 24);
     text-transform: uppercase;
     color: #FFFFFF;
-}
-
-
-
-
-.test-text {
-    margin-left: 20px;
-    margin-bottom: 30px;
 }
