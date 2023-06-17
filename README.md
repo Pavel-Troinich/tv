@@ -1,1 +1,2 @@
 # tv
+for Samsung SmartTV
