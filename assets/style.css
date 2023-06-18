@@ -150,7 +150,6 @@ th {
     margin-top: 8px;
 }
 .table__text {
-    padding-left: 12px;
     font-weight: 600;
     font-size: 28px;
     line-height: calc(24 / 20);
