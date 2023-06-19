@@ -27,7 +27,7 @@ th {
 
 .table__head {
     font-weight: 700;
-    font-size: 28px;
+    font-size: 24px;
     line-height: calc(24 / 20);
     text-transform: uppercase;
     color: #000000;
@@ -42,7 +42,7 @@ th {
     margin-right: 15px;
 
     font-weight: 700;
-    font-size: 28px;
+    font-size: 24px;
     line-height: calc(24 / 20);
     text-transform: uppercase;
 
@@ -100,7 +100,7 @@ th {
 
 .table__time {
     font-weight: 700;
-    font-size: 36px;
+    font-size: 28px;
     border: 3px solid #012E60;
     /* line-height: 110%; */
     text-transform: uppercase;
@@ -112,7 +112,7 @@ th {
 
 .table__date {
     font-weight: 700;
-    font-size: 36px;
+    font-size: 28px;
     border: 3px solid #012E60;
     /* line-height: calc(29 / 24); */
     text-transform: uppercase;
@@ -133,8 +133,8 @@ th {
     
 }
 
-.table__block-top {
-    display: flex;
+.table__block-top td {
+    border: none;
 }
 
 .table__icon {
@@ -150,23 +150,23 @@ th {
     margin-top: 8px;
 }
 .table__text {
-    margin-left: 12px;
     font-weight: 600;
-    font-size: 28px;
+    font-size: 22px;
     line-height: calc(24 / 20);
     color: #000000;
 }
 
 .table__bold {
     font-weight: 700;
-    font-size: 40px;
+    font-size: 24px;
     line-height: calc(39 / 32);
+    text-transform: uppercase;
     color: #FFFFFF;
 }
 
 .table__thin {
     font-weight: 700;
-    font-size: 32px;
+    font-size: 24px;
     line-height: calc(29 / 24);
     color: #FFFFFF;
     
@@ -187,16 +187,8 @@ th {
 .table__info {    
     padding: 8px;
     font-weight: 700;
-    font-size: 28px;
+    font-size: 22px;
     line-height: calc(29 / 24);
     text-transform: uppercase;
     color: #FFFFFF;
-}
-
-
-
-
-.test-text {
-    margin-left: 20px;
-    margin-bottom: 30px;
 }
